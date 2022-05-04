@@ -1,0 +1,56 @@
+                         : : : : : LOGIN DETAILS : : : : : 
+
+
+user:
+
+=> seungri123@gmail.com
+=> updated123
+ 
+
+=>> aye123@gmail.com
+=>> updated
+
+ADMIN   username:admin
+        password:main123#
+
+
+        
+        logo color: 
+        Pickled Bluewood
+        #28334B
+        
+        Sea Buckthorn
+        #F59723
+        
+        Eastern Blue
+        #1F7BBB
+        
+        Lynch
+        #6C7C94
+
+
+
+
+header.php
+
+
+<?php
+if($_SESSION['login'])
+{?>
+<li class="text-light nav-item" style="margin-left: 600px!important;">
+<a href="#" type="button" class="btn  text-white" data-toggle="modal" data-target="#myModal3"> Ask us! </a>  
+</li>
+<?php } else { ?>
+<li class="nav-item">
+<a href="enquiry.php" class="nav-link ">Appointment</a>
+</li>
+<?php } ?>
+<div class="clearfix"></div>
+</ul>
+</div>
+</div>
+</nav>
+</div>
+
+</div>
+</div>
